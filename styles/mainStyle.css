@@ -1,0 +1,52 @@
+body {
+  /*Bruk denne fargen som "pine" #0d1c10*/
+  background-color: #0d1c10
+}
+
+h1 { 
+  color: white; 
+}
+
+p {
+  color: white;
+}
+
+ul { 
+  color: white
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: burlywood;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red; 
+  text-decoration: underline;
+}
+
+.navigation-container {
+  a:link {
+    color: white;
+  }
+  a:visited {
+   color:white; 
+  }
+  a:hover {
+    color: white;
+  }
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-content {
+  display: grid; 
+  grid-template-columns: auto auto;
+  align-content: space-around;
+}
