@@ -8,39 +8,42 @@
   
   <link rel = "styleSheet" href = "styles/mainStyle.css">
 </head>
+
 <body>
-  <div class = "navigation-container">
-      <a href = "/">Home</a>
-      <a href = "/pages/about.html">About</a>
-      <a href = "/pages/trackAndField.html">Track And Field</a>
-      <a href = "/pages/contact.html">Contact</a>
-  </div>
-  
-  <div class = "main-content">
-    <div>
-      <h1>Teodor Heldal's Portfolio</h1>
-      <h2>Informatics Student - Track Athlete</h2>
-      <p>
-        En gammel lyktestolpe sto alene ved enden av en grusvei, halvveis skjult av krattskog og mose.<br> 
-        Hver kveld tente den et mykt, gulaktig lys som lokket nattinsekter i sirkel rundt glasset.<br>
-        Ingen visste hvem som hadde satt den der, men den lyste trofast år etter år.<br>
-        <br>
-        Dette er et spesielt tilfelle av, hvordan funker dette?<br>
-        Det vil si: Test ut ting helt til det gir mening, ELLER, ikke gjør det.<br>
-        Her tester jeg da nok en gang ut noe for å se hva som skjer!
-      </p> 
+  <div class = "container">
+    <div class = "header">
+        <a href = "index.html">Home</a>
+        <a href = "pages/about.html">About</a>
+        <a href = "pages/trackAndField.html">Track And Field</a>
+        <a href = "pages/contact.html">Contact</a>
     </div>
-    
-    <div>
-      <img src ="images/portrait.jpg" alt = "This should be a picture of me" height="260">
+
+    <div class = "main-layout">
+      <div class = "text">
+        <h1>Teodor Heldal's Portfolio</h1>
+        <h2>Informatics Student - Track Athlete</h2>
+        <p>
+          En gammel lyktestolpe sto alene ved enden av en grusvei, halvveis skjult av krattskog og mose. 
+          Hver kveld tente den et mykt, gulaktig lys som lokket nattinsekter i sirkel rundt glasset.
+          Ingen visste hvem som hadde satt den der, men den lyste trofast år etter år.
+          
+          Dette er et spesielt tilfelle av, hvordan funker dette?
+          Det vil si: Test ut ting helt til det gir mening, ELLER, ikke gjør det.
+          Her tester jeg da nok en gang ut noe for å se hva som skjer!
+        </p> 
+      </div>
+      
+      <div class = "portrait">
+        <img src ="images/portrait.jpg" alt = "This should be a picture of me" height="260">
+      </div>
+
+      <div class = "button-container"> 
+        <h3>Read more about me here:<br></h3>
+        <button class = "btn" type="button">About Me</button>
+        <button class = "btn" type="button">Track And Field</button>
+      </div>
+
     </div>
   </div>
-
-  <div class = "button-container"> 
-    <h3>Read more about me here:<br></h3>
-    <button class = "btn" type="button">About Me</button>
-    <button class = "btn" type="button">Track And Field</button>
-  </div>
-
 </body>
 </html>
